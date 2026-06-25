@@ -6,6 +6,7 @@
 
 body{
     background-color: rgba(228, 196, 155, 0.445);
+    margin: 0;
 }
 
 h1{
@@ -27,9 +28,13 @@ h1{
 
 
 /*Header*/
+nav{
+    width: 100vw;
+}
 nav ul{
     list-style: none;
     display: flex;
+    gap: 50px;
     justify-content: space-around;
     background-color: brown;
     padding: 1rem;
