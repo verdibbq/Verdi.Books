@@ -165,7 +165,7 @@ section h3{
 }
 .container{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap:2rem;
     justify-items:center;
     padding:1rem;
@@ -175,7 +175,7 @@ section h3{
 .cbiblioteca{
     display:grid;
     justify-items:center;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap:2rem;
     padding:1rem;
     width:100%;
@@ -576,6 +576,7 @@ footer{
 
     .item{
         margin:.5rem;
+        max-width: 100%;
     }
 
     .item img{
