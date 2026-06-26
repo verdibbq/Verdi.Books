@@ -5,22 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>libreria</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <body>
     <header>
-        <h1>Verdi.books</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="./pages/novedades.html">Novedades</a></li>
-                <li><a href="./pages/bliblioteca.html">Biblioteca</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/formulario.html">formulario</a></li>
-            </ul>
-        </nav>
-            
-        
-    </header>
+    <h1>Verdi.books</h1>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler ms-auto" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav w-100 justify-content-around">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/novedades.html">Novedades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/bliblioteca.html">Biblioteca</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/formulario.html">Formulario</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
     
     <main>
         
