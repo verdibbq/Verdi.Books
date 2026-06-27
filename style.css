@@ -1,7 +1,9 @@
 :root{
     --color-accent: #f4e4c9;
 }
-/*alt a todas las img y arreglo index(faltan obj atrapantes)*/
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -28,8 +30,7 @@ h1{
     margin-top: 1.5625rem;
     margin-bottom: 3.125rem;
     color: #8B1E1E;
-    height: 100%;
-    width: 100%;
+
 }
 
 
