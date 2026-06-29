@@ -59,7 +59,7 @@ nav ul li a{
     background-color: #E8DFC9(235, 144, 40);
     padding: 1rem;
     border-radius: 1rem;
-    font-family: fantasy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
@@ -83,20 +83,20 @@ nav ul li a:hover{
     margin-bottom: 2rem;
     color: #ffffff;
     font-size: 2rem;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 1rem;
 }
 .inicio p{
     background-color:#4D6C42;
     font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
     text-align: center;
     border-radius: 30px;
 
 }
 .inicio h4{
     text-align: center;
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 1.7px;
     color: rgb(255, 255, 255);
     background-color: #355E3B;
@@ -126,7 +126,7 @@ nav ul li a:hover{
 
 .inicio ul li a{
     text-decoration: none;
-    color: var(--color-accent);
+    color: white;
     background-color: #7B5B42;
     padding: 1rem;
     border-radius: 1rem;
@@ -140,14 +140,14 @@ nav ul li a:hover{
 .info p{
     background-color:#4D6C42;
     font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
     text-align: center;
     border-radius: 30px;
 
 }
 .info h4{
     text-align: center;
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 1.7px;
     color: rgb(255, 255, 255);
     background-color: #355E3B;
@@ -176,7 +176,7 @@ nav ul li a:hover{
 
 .info ul li a{
     text-decoration: none;
-    color: var(--color-accent);
+    color: white;
     background-color: #7B5B42;
     padding: 1rem;
     border-radius: 1rem;
@@ -191,7 +191,7 @@ nav ul li a:hover{
 
 section h3{
     text-align: center;
-    font-family: fantasy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #E8DFC9;
     background-color: #4D6C42;
     border: 5px solid #baf3a55e;
@@ -250,7 +250,7 @@ section h3{
     background-color: #4d6c427e;
     text-decoration:none;
     color: #ffffff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     margin-left: 5px;
     margin-right: 5px;
@@ -269,7 +269,7 @@ section h3{
 
 .item p,
 .itemb p{
-    font-family: fantasy;
+    font-family: cursive;
     font-size: 16px;
     background-color: aliceblue;
     border-radius: 10px;
@@ -279,7 +279,7 @@ section h3{
     
 }
 .item h3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:1.25rem;
     border-radius: 10px;
     margin-left: 10px;
@@ -289,7 +289,7 @@ section h3{
 
 }
 .text{
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:1.25rem;
     font-weight: 10px;
     margin-top: 5px;
@@ -361,7 +361,7 @@ section h3{
     background-color: #7da76e;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 5px;
     
 }
@@ -484,7 +484,7 @@ section h3{
     background-color: #7b5b4285;
     color:#ffffff;
     font-size: 15px;
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 footer{
@@ -505,7 +505,7 @@ footer{
 .footer-col h3{
     color: burlywood;
     margin-bottom: 15px;
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer-col ul{
@@ -579,6 +579,9 @@ aca termina el base
         margin-left:.5rem;
         margin-right:.5rem;
     }
+    .inicio p{
+    font-size: 2rem;
+}
 
     .container{
         display:grid;
