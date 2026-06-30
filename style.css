@@ -1,48 +1,13 @@
 :root{
     --color-accent: #f4e4c9;
-<<<<<<< HEAD
     --color-focus: #ffb84d;
 }
 
-=======
-}
-
-
->>>>>>> 99005a1aa80267ed079b2d02713e60aade060a18
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
 }
-<<<<<<< HEAD
-.skip-link{
-    position: absolute;
-    top: -3rem;
-    left: .5rem;
-    background-color: #4D6C42;
-    color: #ffffff;
-    padding: .75rem 1.25rem;
-    border-radius: .5rem;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    z-index: 1000;
-    transition: top .2s ease-in-out;
-}
-
-.skip-link:focus{
-    top: .5rem;
-}
-
-a:focus-visible,
-button:focus-visible,
-input:focus-visible,
-textarea:focus-visible,
-.navbar-toggler:focus-visible{
-    outline: 3px solid var(--color-focus);
-    outline-offset: 2px;
-}
-=======
->>>>>>> 99005a1aa80267ed079b2d02713e60aade060a18
 body{
     background-color:#f0e1be;
     margin: 0;
@@ -91,11 +56,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
-<<<<<<< HEAD
     background-color: #E8DFC9;
-=======
-    background-color: #E8DFC9(235, 144, 40);
->>>>>>> 99005a1aa80267ed079b2d02713e60aade060a18
     padding: 1rem;
     border-radius: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -620,11 +581,7 @@ aca termina el base
     }
     .inicio p{
     font-size: 2rem;
-<<<<<<< HEAD
     }
-=======
-}
->>>>>>> 99005a1aa80267ed079b2d02713e60aade060a18
 
     .container{
         display:grid;
